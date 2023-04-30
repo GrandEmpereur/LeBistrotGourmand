@@ -8,7 +8,7 @@ Follow these steps to set up the project on your local machine.
 
 ### 1. Clone the repository
 ```
-    git clone git@github.com:IIM-Creative-Technology/headless-strapi-rendu-GrandEmpereur.git
+    git clone git@github.com:GrandEmpereur/LeBistrotGourmand.git
 ```
 
 ### 2. Install Docker (if not already installed)
