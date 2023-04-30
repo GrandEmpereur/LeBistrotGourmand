@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_enriched_content_text_and_images",
+  "info": {
+    "displayName": "Text & Image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "text"
+    },
+    "IsImage": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "IsButton": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Text_Button": {
+      "type": "string"
+    },
+    "Picture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

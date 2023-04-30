@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Slug": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "enriched-content.slider",
+        "block.restaurent",
+        "enriched-content.text-and-image",
+        "menu.nav-bar",
+        "block.form",
+        "block.reservation-form"
+      ],
+      "required": true
+    }
+  }
+}

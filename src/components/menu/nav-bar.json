@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_menu_nav_bars",
+  "info": {
+    "displayName": "NavBar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": false
+    },
+    "Slug": {
+      "type": "string",
+      "required": true
+    },
+    "isExternallink": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "Icon": {
+      "type": "string"
+    }
+  }
+}

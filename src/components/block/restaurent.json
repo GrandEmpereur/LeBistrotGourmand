@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_block_restaurents",
+  "info": {
+    "displayName": "Restaurent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "restaurants": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::restaurant.restaurant"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.restaurant {
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.restaurant__image-container {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.restaurant__image {
+    width: 100%;
+    height: auto;
+}
+
+.restaurant__info {
+    padding: 1rem 0;
+}
+
+.restaurant__name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.restaurant__address,
+.restaurant__phone,
+.restaurant__hours,
+.restaurant__created-at,
+.restaurant__updated-at {
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_block_forms",
+  "info": {
+    "displayName": "Contact Form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "subject": {
+      "type": "text",
+      "required": true
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

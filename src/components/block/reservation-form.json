@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_block_reservation_forms",
+  "info": {
+    "displayName": "Reservation Form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": false
+    },
+    "reservationName": {
+      "type": "string",
+      "required": false
+    },
+    "numberOfPeople": {
+      "type": "integer",
+      "required": false
+    },
+    "reservationDate": {
+      "type": "datetime",
+      "required": false
+    },
+    "restaurants": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::restaurant.restaurant"
+    }
+  }
+}
