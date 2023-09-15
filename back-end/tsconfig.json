@@ -2,12 +2,7 @@
   "extends": "@strapi/typescript-utils/tsconfigs/server",
   "compilerOptions": {
     "outDir": "dist",
-    "rootDir": ".",
-    "jsx": "react",
-    "target": "ESNext",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "module": "ESNext",
-    "allowJs": true,
+    "rootDir": "."
   },
   "include": [
     "./",

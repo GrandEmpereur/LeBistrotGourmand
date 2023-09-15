@@ -1,5 +1,5 @@
 {
-  "name": "strapi-app-2",
+  "name": "back-end",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,10 +9,11 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.9.2",
-    "@strapi/plugin-users-permissions": "4.9.2",
-    "@strapi/strapi": "4.9.2",
+    "@strapi/strapi": "4.10.1",
+    "@strapi/plugin-users-permissions": "4.10.1",
+    "@strapi/plugin-i18n": "4.10.1",
     "pg": "8.8.0",
     "strapi-plugin-populate-deep": "^2.0.0"
   },
@@ -20,7 +21,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "cf89789a-3e10-4a27-8167-a7f6cfcaee7b"
+    "uuid": "18dcd1d9-9446-41c5-809a-735661bb2125"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
